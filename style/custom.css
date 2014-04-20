@@ -1,0 +1,125 @@
+BODY {
+	FONT-SIZE: 12px;
+	BACKGROUND: #373737;
+	COLOR: #90C030;
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A {
+	COLOR: #fff
+}
+.general .middle {
+	OVERFLOW: hidden;
+	background-image: url(../images/small.jpg);
+	background-repeat: repeat;
+}
+.general .middle .wrapper .con {
+	CLEAR: both; MIN-HEIGHT: 300px; FLOAT: left; PADDING-BOTTOM: 30px; MARGIN: 30px; WIDTH: 880px
+}
+.general .middle .wrapper .con A {
+	COLOR: #669900; BORDER-BOTTOM: #4f4f4f 1px dotted
+}
+.general .middle .wrapper .con A:hover {
+	COLOR: #FFFFFF;
+	BORDER-BOTTOM: #4f4f4f 1px dotted
+}
+.general .middle .wrapper P {
+	LINE-HEIGHT: 18px
+}
+.general .header {
+	BACKGROUND: url(../images/headerBg.png) repeat-x; HEIGHT: 101px
+}
+.general .wrapper {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FLOAT: none;
+	PADDING-BOTTOM: 0px;
+	MARGIN: auto;
+	WIDTH: 1000px;
+	PADDING-TOP: 0px
+}
+.pageTitle {
+	CLEAR: both; MARGIN-TOP: 24px; FONT-SIZE: 24px; FLOAT: left; COLOR: #fff
+}
+.contentTitle {
+	CLEAR: both;
+	FONT-SIZE: 20px;
+	FLOAT: left;
+	WIDTH: 100%;
+	COLOR: #FFFFFF
+}
+
+.feature_tour .tab {
+	CLEAR: both;
+	BACKGROUND: url(../images/featuresTabBg.png) no-repeat;
+	FLOAT: left;
+	VISIBILITY: hidden;
+	WIDTH: 921px;
+	margin-top: -40px;
+	margin-bottom: -40px;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+.feature_tour .tab A {
+	DISPLAY: block;
+	FONT-SIZE: 16px;
+	FLOAT: left;
+	WIDTH: 20%;
+	COLOR: #999999;
+	TEXT-INDENT: 20px;
+	LINE-HEIGHT: 47px;
+	HEIGHT: 47px;
+	text-shadow: 0px 1px 0px #fff;
+	font-weight: bold;
+}
+.feature_tour .tab A.current {
+	COLOR: #fff;
+	text-shadow: 0px 1px 0px #788e21;
+}
+.feature_tour .mask {
+	CLEAR: both;
+	FLOAT: left;
+	OVERFLOW: hidden;
+	WIDTH: 1000px;
+	POSITION: relative;
+	HEIGHT: 550px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.feature_tour .mask .maskCon {
+	WIDTH: 5000px
+}
+.feature_tour .mask .maskCon .innerCon {
+	FLOAT: left;
+	WIDTH: 1000px;
+	LINE-HEIGHT: 18px;
+	text-align: center;
+}
+
+.feature_tour .nav {
+	CLEAR: both;
+	FLOAT: left;
+	VISIBILITY: hidden;
+	WIDTH: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.feature_tour .nav P {
+	MARGIN: auto; WIDTH: 90px
+}
+.feature_tour .nav P A {
+	DISPLAY: block; FLOAT: left; WIDTH: 45px; HEIGHT: 36px
+}
+.feature_tour .nav P A.prev {
+	BACKGROUND: url(../images/feature_tours_navigation.png) no-repeat left 0px
+}
+.feature_tour .nav P A.prev:hover {
+	BACKGROUND-POSITION: 0px -36px
+}
+.feature_tour .nav P A.next {
+	BACKGROUND: url(../images/feature_tours_navigation.png) no-repeat right 0px
+}
+.feature_tour .nav P A.next:hover {
+	BACKGROUND-POSITION: right -72px
+}
