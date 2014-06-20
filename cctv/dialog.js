@@ -267,7 +267,7 @@ arr.push("  <tr><td width='13' height='13' style=\"background-image:url("+IMGFOL
 arr.push("    <td style=\"background-image:url("+IMGFOLDERPATH+"dialog_cb.png) !important;background-image: none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+IMGFOLDERPATH+"dialog_cb.png', sizingMethod='crop');\"></td>");
 arr.push("    <td width='13' height='13' style=\"background-image:url("+IMGFOLDERPATH+"dialog_rb.png) !important;background-image: none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+IMGFOLDERPATH+"dialog_rb.png', sizingMethod='crop');\"></td>");
 arr.push("  </tr></table>");
-//arr.push("<table border=\"0\" width=\"960\" style=\"font-size: 14px;margin:5px 10px;\" cellspacing=\"0\" cellpadding=\"0\" height=\"30\"><tr><td height=\"30\"><p align=\"center\"><a href=\"http:\/\/live.64ma.com\/tv\/tv.asp?pid=cctv5\/\" target=\"_blank\"><font color=\"#FCFF00\">ÓÑÇéÁ´½Ó£º64Âë<\/font><\/a><\/td><\/tr><\/table>");
+//arr.push("");
 this.TopWindow=pw;
 var bgdiv=pw.$("_DialogBGDiv");
 if(!bgdiv){
